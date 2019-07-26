@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[softmax-cross-entropy-derivatives]]></title>
+    <url>%2Fmath%2F2019-07-26-softmax-cross-entropy-derivatives.html</url>
+    <content type="text"><![CDATA[一些softmax和交叉熵的求导过程]]></content>
+      <categories>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>machine learning</tag>
+        <tag>math</tag>
+        <tag>derivative</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[How to Start Hexo]]></title>
     <url>%2Fnote%2F2019-02-13-How-to-Start-Hexo.html</url>
     <content type="text"><![CDATA[Hexo is a static blog framework and we could use markdown syntax to render pages. InstallationFirst, we have to get Node.js and Git ready. Here are the two links: Node.js Git Second, we should install hexo framework through npm commands. 12345$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install$ hexo server Third, I also use a third-party theme, the NexT. The Hexo version is 3.8.0 and the NexT version is 7.0.0 . ConfigurationThe global configuration file: _config.yml123456789101112language: zh-CNurl: https://spico197.github.iopermalink: :category/:year-:month-:day-:title.htmltheme: nextsearch: path: search.xml field: post format: html limit: 10000deploy: type: git repo: git@github.com:Spico197/Spico197.github.io.git Here, I use the Git deployment method and I use a ssh-sync repo. The theme config file in theme/next/_config.yml: 123456789101112131415161718192021222324252627282930313233343536373839# 访客数和访问数统计busuanzi_count: enable: true total_visitors: true total_visitors_icon: user total_views: true total_views_icon: eye post_views: false post_views_icon: eye# 本地搜索功能local_search: enable: true# 网页加载进度条pace: true# 允许加载数学公式math: enable: true# 首页不显示文章全部内容auto_excerpt: enable: true# 侧边栏始终显示sidebar: display: always# 设置头像图片avatar: url: /images/avatar.jpg# 设置主题模式scheme: Gemini# 设置菜单menu: home: / || home about: /about/ || user tags: /tags/ || tags categories: /categories/ || th archives: /archives/ || archive# 设置社交联系方式social: GitHub: https://github.com/Spico197 || github E-Mail: mailto:spico1026@gmail.com || envelope Writing and DeploymentCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment References Hexo-Github搭建自己的博客 — 心得汇总2018版（主题配置篇） Hexo+Github搭建自己的博客 — 心得汇总2018版（内容编辑篇）]]></content>
