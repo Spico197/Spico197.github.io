@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[add-image-in-hexo]]></title>
+    <url>%2Fnote%2F2019-07-26-add-image-in-hexo.html</url>
+    <content type="text"><![CDATA[Hexo is not very image friendly. So we may not insert local images just like naive markdown. We should install a plugin 12npm install https://github.com/CodeFalling/hexo-asset-image -- save# or npm install https://github.com/7ym0n/hexo-asset-image --save Set _config.yml 1post_asset_folder: true When we create a new post, hexo will generate a folder with the same name. We can put images or other things into this folder and add a tag like below into the post. 1&#123;% asset_img page2.png page2 %&#125; 123hexo cleanhexo ghexo s And finally, you could see these pictures in the local server.]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[softmax-crossentropy]]></title>
     <url>%2Fmath%2F2019-07-26-softmax-crossentropy.html</url>
     <content type="text"><![CDATA[一些softmax和交叉熵的求导过程]]></content>
