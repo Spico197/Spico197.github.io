@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Add Images in Hexo]]></title>
     <url>%2Fnote%2F2019-07-26-add-image-in-hexo%2F</url>
-    <content type="text"><![CDATA[Hexo is not very image friendly. So we may not insert local images just like naive markdown. We should install a plugin 12npm install https://github.com/CodeFalling/hexo-asset-image -- save# or npm install https://github.com/7ym0n/hexo-asset-image --save Set _config.yml 1post_asset_folder: true When we create a new post, hexo will generate a folder with the same name. We can put images or other things into this folder and add a tag like below into the post. 1&#123;% asset_img page2.png page2 %&#125; 123hexo cleanhexo ghexo s And finally, you could see these pictures in the local server.]]></content>
+    <content type="text"><![CDATA[Hexo is not very image friendly. So we may not insert local images just like naive markdown. We should install a plugin 12npm install https://github.com/CodeFalling/hexo-asset-image -- save# or npm install https://github.com/7ym0n/hexo-asset-image --save Set _config.yml 1post_asset_folder: true When we create a new post, hexo will generate a folder with the same name. We can put images or other things into this folder and add a tag like below into the post. 1&#123;% asset_img page2.png page2 %&#125; Or just insert images like ![alt](page1.png). 123hexo cleanhexo ghexo s And finally, you could see these pictures in the local server.]]></content>
       <categories>
         <category>note</category>
       </categories>

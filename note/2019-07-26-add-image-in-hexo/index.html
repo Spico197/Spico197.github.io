@@ -126,7 +126,7 @@
 <meta property="og:site_name" content="Spico">
 <meta property="og:description" content="Hexo is not very image friendly. So we may not insert local images just like naive markdown.  We should install a plugin  12npm install https://github.com/CodeFalling/hexo-asset-image -- save# or npm">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-26T08:16:09.536Z">
+<meta property="og:updated_time" content="2019-07-26T08:20:00.522Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Add Images in Hexo">
 <meta name="twitter:description" content="Hexo is not very image friendly. So we may not insert local images just like naive markdown.  We should install a plugin  12npm install https://github.com/CodeFalling/hexo-asset-image -- save# or npm">
@@ -442,7 +442,7 @@
                 
               
 
-              <time title="创建时间：2019-07-26 15:59:37 / 修改时间：16:16:09" itemprop="dateCreated datePublished" datetime="2019-07-26T15:59:37+08:00">2019-07-26</time>
+              <time title="创建时间：2019-07-26 15:59:37 / 修改时间：16:20:00" itemprop="dateCreated datePublished" datetime="2019-07-26T15:59:37+08:00">2019-07-26</time>
             
 
             
@@ -509,9 +509,10 @@
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>When we create a new post, hexo will generate a folder with the same name. We can put images or other things into this folder and add a tag like below into the post.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img page2.png page2 %&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img page2.png page2 %&#125;</span><br></pre></td></tr></table></figure>
+<p>Or just insert images like <code>![alt](page1.png)</code>. </p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 <p>And finally, you could see these pictures in the local server.</p>
 
