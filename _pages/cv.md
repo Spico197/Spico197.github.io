@@ -38,7 +38,7 @@ redirect_from:
 ### Competation Awards
 
 - 2021.05 Top 5 team in *2021 Language and Intelligence Competition: Information Extraction Task*
-- 2020.10 Top 1 team in *CCKS2020 Task 5: Event Extraction on Financial Documents* [[Report]](https://bj.bcebos.com/v1/conference/ccks2020/eval_paper/ccks2020_eval_paper_5_2_1.pdf)
+- 2020.10 Top 1 team in *CCKS2020 Task 5: Event Extraction on Financial Documents* [[Report]](/files/ccks2020_eval_paper_5_2_1.pdf)
 - 2018.07 First Prize in *The 1st Guizhou Electronic Design Contest*
 - 2017.11 Second Prize in *China Undergraduate Mathematical Contest in Modeling*
 - 2017.09 First Prize in *National Undergraduate Electronic Design Contest (Guizhou Division)*
