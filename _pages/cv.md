@@ -9,51 +9,36 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+## Education
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+- 2019.09 - Now: M.Phil student at Soochow University, advised by [Wenliang Chen](http://hlt.suda.edu.cn/index.php/Wenliang)
+- 2015.09 - 2019.07: Undergraduate student at Guizhou University, majoring in Communication Engineering
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Publications
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- **Tong Zhu**, Haitao Wang, Junjie Yu, Xiabing Zhou, Wenliang Chen, Wei Zhang and Min Zhang. Towards Accurate and Consistent Evaluation: A Dataset for Distantly-Supervised Relation Extraction. In Proceedings of the 28th International Conference on Computational Linguistics (COLING 2020). pp. 6436-6447. [[PDF]](https://arxiv.org/pdf/2010.16275.pdf) [[Data & Codes]](https://github.com/Spico197/NYT-H)
+- Junjie Yu, **Tong Zhu**, Wenliang Chen, Wei Zhang and Min Zhang. Improving Relation Extraction with Relational Paraphrase Sentences. In Proceedings of the 28th International Conference on Computational Linguistics (COLING 2020). pp. 1687-1698. [[PDF]](https://www.aclweb.org/anthology/2020.coling-main.148.pdf)
+
+## Repos
+
+- [MCRF](https://github.com/Spico197/MCRF): PyTorch implemented Masked-CRF
+- [Watchmen](https://github.com/Spico197/watchmen): A GPU scheduling toolkit for queuing jobs
+- [TongfuRemotePrinter](https://github.com/Spico197/TongfuRemotePrinter): A project for remotely controling the printer in our office, without using a memory disk
+- [WirelessCard](https://github.com/Spico197/WirelessCard): Wireless checkin recording system, based on ESP8266 (WiFi communication) and Django
+- [umbrella-rental-system](https://github.com/Spico197/umbrella-rental-system): Umbrella rental system based on NodeMCU. Server end and device end are both included
+
+## Awards
+
+### Education Awards
+
+- 2019.06 Excellent Graduates of Guizhou Province
+- 2018.12 National Scholarship
+- 2016.11 Merit Student of Guizhou Province
+
+### Competation Awards
+
+- Top 5 team in *2021 Language and Intelligence Competition: Information Extraction Task*
+- Top 1 team in *CCKS2020 Task 5: Event Extraction on Financial Documents* [[Report]](https://bj.bcebos.com/v1/conference/ccks2020/eval_paper/ccks2020_eval_paper_5_2_1.pdf)
+- 2018.07 First Prize in *The 1st Guizhou Electronic Design Contest*
+- 2017.11 Second Prize in *China Undergraduate Mathematical Contest in Modeling*
+- 2017.09 First Prize in *National Undergraduate Electronic Design Contest (Guizhou Division)*

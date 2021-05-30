@@ -11,35 +11,6 @@ redirect_from:
 I'm an M.Phil student at Soochow University, working on Natural Language Processing.
 My interests include IoT design, Relation Extraction and Event Extraction.
 
-## Education
+## News
 
-- 2019.09 - Now: M.Phil student at Soochow University, advised by [Wenliang Chen](http://hlt.suda.edu.cn/index.php/Wenliang)
-- 2015.09 - 2019.07: Undergraduate student at Guizhou University, majoring in Communication Engineering
-
-## Publications
-
-- **Tong Zhu**, Haitao Wang, Junjie Yu, Xiabing Zhou, Wenliang Chen, Wei Zhang and Min Zhang. Towards Accurate and Consistent Evaluation: A Dataset for Distantly-Supervised Relation Extraction. In Proceedings of the 28th International Conference on Computational Linguistics (COLING 2020). pp. 6436-6447. [[PDF]](https://arxiv.org/pdf/2010.16275.pdf) [[Data & Codes]](https://github.com/Spico197/NYT-H)
-- Junjie Yu, **Tong Zhu**, Wenliang Chen, Wei Zhang and Min Zhang. Improving Relation Extraction with Relational Paraphrase Sentences. In Proceedings of the 28th International Conference on Computational Linguistics (COLING 2020). pp. 1687-1698. [[PDF]](https://www.aclweb.org/anthology/2020.coling-main.148.pdf)
-
-## Repos
-
-- [MCRF](https://github.com/Spico197/MCRF): PyTorch implemented Masked-CRF
-- [Watchmen](https://github.com/Spico197/watchmen): A GPU scheduling toolkit for queuing jobs
-- [TongfuRemotePrinter](https://github.com/Spico197/TongfuRemotePrinter): A project for remotely controling the printer in our office, without using a memory disk
-- [WirelessCard](https://github.com/Spico197/WirelessCard): Wireless checkin recording system, based on ESP8266 (WiFi communication) and Django
-- [umbrella-rental-system](https://github.com/Spico197/umbrella-rental-system): Umbrella rental system based on NodeMCU. Server end and device end are both included
-
-## Awards
-
-### Education Awards
-
-- 2019.06 Excellent Graduates of Guizhou Province
-- 2018.12 National Scholarship
-- 2016.11 Merit Student of Guizhou Province
-
-### Competation Awards
-
-- Top 1 team in CCKS2020 Task 5: Event Extraction on Financial Documents [[Report]](https://bj.bcebos.com/v1/conference/ccks2020/eval_paper/ccks2020_eval_paper_5_2_1.pdf)
-- 2018.07 The 1st Guizhou Electronic Design Contest, First Prize
-- 2017.11 China Undergraduate Mathematical Contest in Modeling, Second Prize
-- 2017.09 National Undergraduate Electronic Design Contest, First Prize (Guizhou Division)
+- 2021.05.30 We are the Top 5 team (out of 102) and get the 3rd prize in *2021 Language and Intelligence Competition: Information Extraction Task* (hosted by CCF, CIPSC and Baidu Inc.)
