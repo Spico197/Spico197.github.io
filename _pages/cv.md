@@ -40,6 +40,7 @@ redirect_from:
 
 ### Competation Awards
 
+- 2021.07 Technological Innovation Award in *CCKS2021 Event and Event Relation Extraction Task*
 - 2021.05 Third Prize (top 5 team) in *2021 Language and Intelligence Competition: Information Extraction Task*
 - 2020.10 Top 1 team in *CCKS2020 Task 5: Event Extraction on Financial Documents* [[Report]](/files/ccks2020_eval_paper_5_2_1.pdf)
 - 2018.07 First Prize in *The 1st Guizhou Electronic Design Contest*
