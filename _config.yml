@@ -82,12 +82,13 @@ analytics:
 author:
   name             : "Tong Zhu ( 朱桐 )"
   avatar           : "profile.png"
-  bio              : "M.Phil student at Soochow University"
+  bio              : "Ph.D. student at Soochow University"
   location         : "Suzhou, China"
+  email            : "tzhu1997@outlook.com"
+  github           : "Spico197"
+  googlescholar    : "https://scholar.google.com/citations?user=V1gIjasAAAAJ"
   employer         :
   pubmed           :
-  googlescholar    :
-  email            : tzhu1997@outlook.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +97,6 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Spico197"
   google_plus      :
   keybase          :
   instagram        :

@@ -12,6 +12,9 @@ main:
   - title: "CV"
     url: /cv/
 
+  - title: "ReadingGroup"
+    url: /reading_group/
+
   # - title: "Blog Posts"
   #   url: /year-archive/
 
