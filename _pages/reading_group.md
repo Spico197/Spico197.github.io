@@ -20,6 +20,7 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
 
 ## 📅 Schedule
 
-| Datetime | Location | Speaker | Topic | Note |
-| :------- | :------- | :------ | :---- | :--- |
-|          |          |         |       |      |
+| Datetime      | Location        | Speaker                          | Topic                                                                                                                                                                                                                                                                                       | Note |
+| :------------ | :-------------- | :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :--- |
+| Oct. 13, 2021 | Ligong Building | 1. Guoliang Zhang<br>2. Tong Zhu | 1. <a href="https://arxiv.org/abs/2011.01675" target="_blank">Joint Entity and Relation Extraction with Set Prediction Networks</a><br>2. <a href="http://blender.cs.illinois.edu/software/oneie/" target="_blank">A Joint Neural Model for Information Extraction with Global Features</a> |      |
+
