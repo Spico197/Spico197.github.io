@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "ReadingGroup"
+title: "Reading Group"
 permalink: /reading_group/
 author_profile: true
 redirect_from:
