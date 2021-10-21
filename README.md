@@ -8,9 +8,12 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 ## Quick Start
 
+- Install [rvm](https://rvm.io/rvm/install) and activate: `source ~/.rvm/scripts/rvm`
+- Install Ruby **2.7**: `rvm install 2.7`
 - Install dependencies
 
 ```bash
+$ gem install jekyll bundler
 $ bundle install
 ```
 

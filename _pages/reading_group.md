@@ -31,6 +31,7 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
   </tr>
 </thead>
 <tbody>
+  <!-- 1st Meeting, Oct. 13, 2021 -->
   <tr>
     <td rowspan="3">Oct. 13, 2021 - 15:00</td>
     <td rowspan="3">Room 504, Ligong Building</td>
@@ -42,7 +43,9 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
         <li><a href="https://arxiv.org/abs/2106.00641" target="_blank">SpanNER: Named Entity Re-/Recognition as Span Prediction</a></li>
       </ul>
     </td>
-    <td></td>
+    <td>
+      <a href="/files/PaperReadingGroup/20211013-IE/贾昊-1013.pptx" target="_blank">Slides</a>
+    </td>
   </tr>
   <tr>
     <td>Guoliang Zhang</td>
@@ -54,7 +57,9 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
         <li><a href="https://arxiv.org/abs/2011.01675" target="_blank">Joint Entity and Relation Extraction with Set Prediction Networks</a></li>
       </ul>
     </td>
-    <td></td>
+    <td>
+      <a href="/files/PaperReadingGroup/20211013-IE/张国梁-论文分享-实体关系抽取.pptx" target="_blank">Slides</a>
+    </td>
   </tr>
   <tr>
     <td>Tong Zhu</td>
@@ -64,7 +69,62 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
         <li><a href="https://aclanthology.org/2020.acl-main.713/" target="_blank">A Joint Neural Model for Information Extraction with Global Features</a></li>
       </ul>
     </td>
-    <td></td>
+    <td>
+      <a href="/files/PaperReadingGroup/20211013-IE/Tong-OneIE-20211013.pdf" target="_blank">Slides</a>
+    </td>
+  </tr>
+
+  <!-- 2nd Meeting, Oct. 27, 2021 -->
+  <tr>
+    <td rowspan="4">Oct. 27, 2021 - 15:00</td>
+    <td rowspan="4">Room 211, Ligong Building</td>
+    <td>Pei Zhou</td>
+    <td>
+      Span-based NER:<br />
+      <ul>
+        <li><a href="https://arxiv.org/abs/2106.14373" target="_blank">A Span-Based Model for Joint Overlapped and Discontinuous
+Named Entity Recognition</a></li>
+      </ul>
+    </td>
+    <td>
+      <!-- <a href="#" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+  <tr>
+    <td>Chuanyuan Tan</td>
+    <td>
+      KBQA:<br />
+      <ul>
+        <li><a href="https://aclanthology.org/2021.acl-demo.39/" target="_blank">ReTraCk: A Flexible and Efficient Framework for Knowledge Base Question Answering</a></li>
+      </ul>
+    </td>
+    <td>
+      <!-- <a href="#" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+  <tr>
+    <td>Zhenhua Liu</td>
+    <td>
+      Dialogue:<br />
+      <ul>
+        <li><a href="https://arxiv.org/abs/1901.08149" target="_blank">TransferTransfo: A Transfer Learning Approach for Neural Network Based Conversational Agents</a></li>
+      </ul>
+    </td>
+    <td>
+      <!-- <a href="#" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+  <tr>
+    <td>Zhilin Zhang</td>
+    <td>
+      Dialogue:<br />
+      <ul>
+        <li><a href="https://aclanthology.org/D19-1508/" target="_blank">Enhancing Dialogue Symptom Diagnosis with Global Attention and Symptom Graph</a></li>
+      </ul>
+    </td>
+    <td>
+      <!-- <a href="#" target="_blank">Slides</a> -->
+    </td>
   </tr>
 </tbody>
 </table>
