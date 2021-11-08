@@ -31,6 +31,78 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
   </tr>
 </thead>
 <tbody>
+
+  <!-- 3nd Meeting, Nov. 10, 2021 -->
+  <tr>
+    <td rowspan="2">Nov. 10, 2021 - 19:00</td>
+    <td rowspan="2">Room 501, Ligong Building</td>
+    <td>Pei Zhou</td>
+    <td>
+      Overlapped and Discontinuous NER:<br />
+      <ul>
+        <li><a href="https://arxiv.org/abs/2106.14373" target="_blank">A Span-Based Model for Joint Overlapped and Discontinuous
+Named Entity Recognition</a></li>
+      </ul>
+    </td>
+    <td>
+      <!-- <a href="#" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+  <tr>
+    <td>Jiajie Ding</td>
+    <td>
+      Question Generation:<br />
+      <ul>
+        <li><a href="https://arxiv.org/abs/1908.04942" target="_blank">Reinforcement Learning Based Graph-to-Sequence Model for Natural Question Generation</a></li>
+      </ul>
+    </td>
+    <td>
+      <!-- <a href="#" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+
+
+  <!-- 2nd Meeting, Oct. 27, 2021 -->
+  <tr>
+    <td rowspan="3">Oct. 27, 2021 - 15:00</td>
+    <td rowspan="3">Room 211, Ligong Building</td>
+    <td>Chuanyuan Tan</td>
+    <td>
+      KBQA:<br />
+      <ul>
+        <li><a href="https://aclanthology.org/2021.acl-demo.39/" target="_blank">ReTraCk: A Flexible and Efficient Framework for Knowledge Base Question Answering</a></li>
+      </ul>
+    </td>
+    <td>
+      <a href="/files/PaperReadingGroup/20211027-QA-Dialogue/KBQA论文分享-谈川源.pptx" target="_blank">Slides</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Zhenhua Liu</td>
+    <td>
+      Dialogue:<br />
+      <ul>
+        <li><a href="https://arxiv.org/abs/1901.08149" target="_blank">TransferTransfo: A Transfer Learning Approach for Neural Network Based Conversational Agents</a></li>
+      </ul>
+    </td>
+    <td>
+      <a href="/files/PaperReadingGroup/20211027-QA-Dialogue/个性化对话生成.pdf" target="_blank">Slides</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Zhilin Zhang</td>
+    <td>
+      Dialogue:<br />
+      <ul>
+        <li><a href="https://aclanthology.org/D19-1508/" target="_blank">Enhancing Dialogue Symptom Diagnosis with Global Attention and Symptom Graph</a></li>
+      </ul>
+    </td>
+    <td>
+      <a href="/files/PaperReadingGroup/20211027-QA-Dialogue/医患对话理解.pptx" target="_blank">Slides</a>
+    </td>
+  </tr>
+
+
   <!-- 1st Meeting, Oct. 13, 2021 -->
   <tr>
     <td rowspan="3">Oct. 13, 2021 - 15:00</td>
@@ -73,58 +145,6 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
       <a href="/files/PaperReadingGroup/20211013-IE/Tong-OneIE-20211013.pdf" target="_blank">Slides</a>
     </td>
   </tr>
-
-  <!-- 2nd Meeting, Oct. 27, 2021 -->
-  <tr>
-    <td rowspan="4">Oct. 27, 2021 - 15:00</td>
-    <td rowspan="4">Room 211, Ligong Building</td>
-    <td>Pei Zhou</td>
-    <td>
-      Span-based NER:<br />
-      <ul>
-        <li><a href="https://arxiv.org/abs/2106.14373" target="_blank">A Span-Based Model for Joint Overlapped and Discontinuous
-Named Entity Recognition</a></li>
-      </ul>
-    </td>
-    <td>
-      <!-- <a href="#" target="_blank">Slides</a> -->
-    </td>
-  </tr>
-  <tr>
-    <td>Chuanyuan Tan</td>
-    <td>
-      KBQA:<br />
-      <ul>
-        <li><a href="https://aclanthology.org/2021.acl-demo.39/" target="_blank">ReTraCk: A Flexible and Efficient Framework for Knowledge Base Question Answering</a></li>
-      </ul>
-    </td>
-    <td>
-      <!-- <a href="#" target="_blank">Slides</a> -->
-    </td>
-  </tr>
-  <tr>
-    <td>Zhenhua Liu</td>
-    <td>
-      Dialogue:<br />
-      <ul>
-        <li><a href="https://arxiv.org/abs/1901.08149" target="_blank">TransferTransfo: A Transfer Learning Approach for Neural Network Based Conversational Agents</a></li>
-      </ul>
-    </td>
-    <td>
-      <!-- <a href="#" target="_blank">Slides</a> -->
-    </td>
-  </tr>
-  <tr>
-    <td>Zhilin Zhang</td>
-    <td>
-      Dialogue:<br />
-      <ul>
-        <li><a href="https://aclanthology.org/D19-1508/" target="_blank">Enhancing Dialogue Symptom Diagnosis with Global Attention and Symptom Graph</a></li>
-      </ul>
-    </td>
-    <td>
-      <!-- <a href="#" target="_blank">Slides</a> -->
-    </td>
-  </tr>
+  
 </tbody>
 </table>
