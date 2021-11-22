@@ -32,7 +32,52 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
 </thead>
 <tbody>
 
-  <!-- 3nd Meeting, Nov. 10, 2021 -->
+  <!-- 4th Meeting, Nov. 24, 2021 -->
+  <tr>
+    <td rowspan="5">Nov. 24, 2021 - 14:00</td>
+    <td rowspan="5">Room 211, Ligong Building</td>
+    <td>Zijian Yu</td>
+    <td rowspan="5">
+      This is a special brief introduction to <a href="https://cogcomp.seas.upenn.edu/page/tutorial.202108/" target="_blank">the ACL'21 tutorial</a>. Each speaker is going to share one topic of the introduction. The order and main content are listed as below:
+      <ul>
+        <li>Event Extraction</li>
+        <li>Event Relation Extraction</li>
+        <li>Event Process Prediction</li>
+        <li>Event-centric Knowledge Acquisition</li>
+        <li>Event Summarization</li>
+      </ul>
+    </td>
+    <td>
+      <!-- <a href="#" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+  <tr>
+    <td>Junfei Ren</td>
+    <td>
+      <!-- <a href="#" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+  <tr>
+    <td>Tong Zhu</td>
+    <td>
+      <!-- <a href="#" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+  <tr>
+    <td>Guoliang Zhang</td>
+    <td>
+      <!-- <a href="#" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+  <tr>
+    <td>Mengsong Wu</td>
+    <td>
+      <!-- <a href="#" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+
+
+  <!-- 3rd Meeting, Nov. 10, 2021 -->
   <tr>
     <td rowspan="2">Nov. 10, 2021 - 19:00</td>
     <td rowspan="2">Room 501, Ligong Building</td>
@@ -45,7 +90,7 @@ Named Entity Recognition</a></li>
       </ul>
     </td>
     <td>
-      <!-- <a href="#" target="_blank">Slides</a> -->
+      <a href="/files/PaperReadingGroup/20211110-NER-QG/周沛-11-10.pptx" target="_blank">Slides</a>
     </td>
   </tr>
   <tr>
@@ -57,7 +102,7 @@ Named Entity Recognition</a></li>
       </ul>
     </td>
     <td>
-      <!-- <a href="#" target="_blank">Slides</a> -->
+      <a href="/files/PaperReadingGroup/20211110-NER-QG/Jiajie-RL-based Graph2Seq for NQG.pptx" target="_blank">Slides</a>
     </td>
   </tr>
 
