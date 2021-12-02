@@ -32,6 +32,28 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
 </thead>
 <tbody>
 
+  <!-- 5th Meeting, Dec. 08, 2021 -->
+  <tr>
+    <td rowspan="2">Dec. 08, 2021 - 14:00</td>
+    <td rowspan="2">Room 211, Ligong Building</td>
+    <td>Hao Jia</td>
+    <td>
+        <a href="https://arxiv.org/abs/2010.00904" target="_blank">Autoregressive Entity Retrieval</a>
+    </td>
+    <td>
+      <!-- <a href="/" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+  <tr>
+    <td>Zhenhua Liu</td>
+    <td>
+      <a href="https://arxiv.org/abs/2004.07672" target="_blank">Generate, Delete and Rewrite: A Three-Stage Framework for Improving Persona Consistency of Dialogue Generation</a>
+    </td>
+    <td>
+      <!-- <a href="/" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+
   <!-- 4th Meeting, Nov. 24, 2021 -->
   <tr>
     <td rowspan="5">Nov. 24, 2021 - 14:00</td>
@@ -48,31 +70,31 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
       </ul>
     </td>
     <td>
-      <!-- <a href="#" target="_blank">Slides</a> -->
+      <a href="/files/PaperReadingGroup/20211124-EventCentric/余子健-事件抽取.pptx" target="_blank">Slides</a>
     </td>
   </tr>
   <tr>
     <td>Junfei Ren</td>
     <td>
-      <!-- <a href="#" target="_blank">Slides</a> -->
+      <a href="/files/PaperReadingGroup/20211124-EventCentric/任俊飞-事件关系抽取.pptx" target="_blank">Slides</a>
     </td>
   </tr>
   <tr>
     <td>Tong Zhu</td>
     <td>
-      <!-- <a href="#" target="_blank">Slides</a> -->
+      <a href="/files/PaperReadingGroup/20211124-EventCentric/Tong - Event Process Prediction.pdf" target="_blank">Slides</a>
     </td>
   </tr>
   <tr>
     <td>Guoliang Zhang</td>
     <td>
-      <!-- <a href="#" target="_blank">Slides</a> -->
+      <a href="/files/PaperReadingGroup/20211124-EventCentric/张国梁-常识.pdf" target="_blank">Slides</a>
     </td>
   </tr>
   <tr>
     <td>Mengsong Wu</td>
     <td>
-      <!-- <a href="#" target="_blank">Slides</a> -->
+      <a href="/files/PaperReadingGroup/20211124-EventCentric/吴孟松-事件摘要.pptx" target="_blank">Slides</a>
     </td>
   </tr>
 
