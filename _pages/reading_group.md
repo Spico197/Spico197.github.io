@@ -45,7 +45,7 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
     </td>
   </tr>
   <tr>
-    <td>Zhenhua Liu</td>
+    <td>Jianxiang Xiang</td>
     <td>
       <a href="https://arxiv.org/abs/2004.07672" target="_blank">Generate, Delete and Rewrite: A Three-Stage Framework for Improving Persona Consistency of Dialogue Generation</a>
     </td>
