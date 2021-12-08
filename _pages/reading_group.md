@@ -41,7 +41,7 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
         <a href="https://arxiv.org/abs/2010.00904" target="_blank">Autoregressive Entity Retrieval</a>
     </td>
     <td>
-      <!-- <a href="/" target="_blank">Slides</a> -->
+      <a href="/files/PaperReadingGroup/20211208-NER-Dialogue/贾昊-12.8.pptx" target="_blank">Slides</a>
     </td>
   </tr>
   <tr>
@@ -50,7 +50,7 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
       <a href="https://arxiv.org/abs/2004.07672" target="_blank">Generate, Delete and Rewrite: A Three-Stage Framework for Improving Persona Consistency of Dialogue Generation</a>
     </td>
     <td>
-      <!-- <a href="/" target="_blank">Slides</a> -->
+      <a href="/files/PaperReadingGroup/20211208-NER-Dialogue/项健翔-论文分享-2021-12-8.pdf" target="_blank">Slides</a>
     </td>
   </tr>
 
