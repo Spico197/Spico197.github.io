@@ -32,6 +32,28 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
 </thead>
 <tbody>
 
+  <!-- 6th Meeting, Dec. 21, 2021 -->
+  <tr>
+    <td rowspan="2">Dec. 21, 2021 - 10:00</td>
+    <td rowspan="2">Room 211, Ligong Building</td>
+    <td>Zhilong Chen</td>
+    <td>
+        Working Abroad
+    </td>
+    <td>
+      <!-- <a href="/" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+  <tr>
+    <td>Yuehe Chen</td>
+    <td>
+        <a href="https://aclanthology.org/2020.nli-1.1/" target="_blank">Answering Complex Questions by Combining Information from Curated and Extracted Knowledge Bases</a>
+    </td>
+    <td>
+      <!-- <a href="/" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+
   <!-- 5th Meeting, Dec. 08, 2021 -->
   <tr>
     <td rowspan="2">Dec. 08, 2021 - 14:00</td>
