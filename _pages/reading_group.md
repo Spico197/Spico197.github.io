@@ -32,22 +32,35 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
 </thead>
 <tbody>
 
-  <!-- 6th Meeting, Dec. 21, 2021 -->
+  <!-- 7th Meeting, Jan. 5, 2021 -->
   <tr>
-    <td rowspan="2">Dec. 21, 2021 - 10:00</td>
+    <td rowspan="2">Jan. 5, 2021 - 14:00</td>
     <td rowspan="2">Room 211, Ligong Building</td>
-    <td>Zhilong Chen</td>
+    <td>Yuehe Chen</td>
     <td>
-        Working Abroad
+        <a href="https://aclanthology.org/2020.nli-1.1/" target="_blank">Answering Complex Questions by Combining Information from Curated and Extracted Knowledge Bases</a>
     </td>
     <td>
       <!-- <a href="/" target="_blank">Slides</a> -->
     </td>
   </tr>
   <tr>
-    <td>Yuehe Chen</td>
+    <td>Chuanyuan Tan</td>
     <td>
-        <a href="https://aclanthology.org/2020.nli-1.1/" target="_blank">Answering Complex Questions by Combining Information from Curated and Extracted Knowledge Bases</a>
+        <a href="https://aclanthology.org/2021.acl-short.34/" target="_blank">A Semantics-aware Transformer Model of Relation Linking for Knowledge Base Question Answering</a>
+    </td>
+    <td>
+      <!-- <a href="/" target="_blank">Slides</a> -->
+    </td>
+  </tr>
+
+  <!-- 6th Meeting, Dec. 21, 2021 -->
+  <tr>
+    <td>Dec. 21, 2021 - 10:00</td>
+    <td>Room 211, Ligong Building</td>
+    <td>Zhilong Chen</td>
+    <td>
+        IT Career 101
     </td>
     <td>
       <!-- <a href="/" target="_blank">Slides</a> -->
