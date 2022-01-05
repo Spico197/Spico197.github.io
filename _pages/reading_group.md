@@ -41,7 +41,7 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
         <a href="https://aclanthology.org/2020.nli-1.1/" target="_blank">Answering Complex Questions by Combining Information from Curated and Extracted Knowledge Bases</a>
     </td>
     <td>
-      <!-- <a href="/" target="_blank">Slides</a> -->
+      <a href="/files/PaperReadingGroup/20220105-KBQA/Answering Complex Questions by Combining Information from Curated and Extracted Knowledge Bases.pptx" target="_blank">Slides</a>
     </td>
   </tr>
   <tr>
@@ -50,7 +50,7 @@ If you are interested in sharing and willing to give a talk, please <a href="mai
         <a href="https://aclanthology.org/2021.acl-short.34/" target="_blank">A Semantics-aware Transformer Model of Relation Linking for Knowledge Base Question Answering</a>
     </td>
     <td>
-      <!-- <a href="/" target="_blank">Slides</a> -->
+      <a href="/files/PaperReadingGroup/20220105-KBQA/Leveraging AMR for KBQA-谈川源.pptx" target="_blank">Slides</a>
     </td>
   </tr>
 
