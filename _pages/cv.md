@@ -22,15 +22,6 @@ redirect_from:
 - Junjie Yu, **Tong Zhu**, Wenliang Chen, Wei Zhang and Min Zhang. Improving Relation Extraction with Relational Paraphrase Sentences. In Proceedings of the 28th International Conference on Computational Linguistics (COLING 2020). pp. 1687-1698. [[PDF]](https://www.aclweb.org/anthology/2020.coling-main.148.pdf)
 - Haitao Wang, Zhengqiu He, **Tong Zhu**, Hao Shao, Wenliang Chen, Min Zhang. CCKS 2019 Shared Task on Inter-Personal Relationship Extraction. arXiv preprint arXiv:1908.11337, 2019. [[Task Report]](https://arxiv.org/pdf/1908.11337.pdf)
 
-## 💾 Repos
-
-- [REx](https://github.com/Spico197/REx): A PyTorch-based toolkit for Relation Extraction and more...
-- [MCRF](https://github.com/Spico197/MCRF): PyTorch implemented Masked-CRF
-- [Watchmen](https://github.com/Spico197/watchmen): A GPU scheduling toolkit for queuing jobs
-- [TongfuRemotePrinter](https://github.com/Spico197/TongfuRemotePrinter): A project for remotely controling the printer in our office, without using a memory disk
-- [WirelessCard](https://github.com/Spico197/WirelessCard): Wireless checkin recording system, based on ESP8266 (WiFi communication) and Django
-- [umbrella-rental-system](https://github.com/Spico197/umbrella-rental-system): Umbrella rental system based on NodeMCU. Server end and device end are both included
-
 ## 🏆 Awards
 
 ### Education Awards
@@ -47,3 +38,28 @@ redirect_from:
 - 2018.07 First Prize in *The 1st Guizhou Electronic Design Contest*
 - 2017.11 Second Prize in *China Undergraduate Mathematical Contest in Modeling*
 - 2017.09 First Prize in *National Undergraduate Electronic Design Contest (Guizhou Division)*
+
+## 💾 Repos
+
+Know me through my codes 👀.
+
+### Research
+
+- [🕹️ DocEE](https://github.com/Spico197/DocEE): A toolkit for document-level event extraction, containing some SOTA model implementations.
+- [REx](https://github.com/Spico197/REx): A PyTorch-based toolkit for Relation Extraction and more.
+- [MCRF](https://github.com/Spico197/MCRF): PyTorch implemented Masked-CRF
+
+### Tools
+
+- [Watchmen](https://github.com/Spico197/watchmen): A GPU scheduling toolkit for queuing jobs
+- [TongfuRemotePrinter](https://github.com/Spico197/TongfuRemotePrinter): A project for remotely controling the printer in our office, without using a memory disk
+
+### IoT
+
+- [WirelessCard](https://github.com/Spico197/WirelessCard): Wireless checkin recording system, based on ESP8266 (WiFi communication) and Django
+- [umbrella-rental-system](https://github.com/Spico197/umbrella-rental-system): Umbrella rental system based on NodeMCU. Server end and device end are both included
+
+### Fancy Ideas
+
+- [random-luck](https://github.com/Spico197/random-luck): Automatically select the best random seed based on ancient Chinese I Ching. Good luck and best wishes!
+- [ShikeLang](https://github.com/Spico197/ShikeLang): Compiler with life reflections.
