@@ -17,6 +17,7 @@ redirect_from:
 
 ## 📃 Publications
 
+- **Tong Zhu**, Xiaoye Qu, Wenliang Chen, Zhefeng Wang, Baoxing Huai, Nicholas Yuan, Min Zhang. Efficient Document-level Event Extraction via Pseudo-Trigger-aware Pruned Complete Graph. IJCAI. 2022. [[arXiv preprint]](https://arxiv.org/abs/2112.06013) [[中文汇报@AIS2022]](/files/talks/84-朱桐-AIS2022-PTPCG.pdf)
 - Haitao Wang, **Tong Zhu**, Mingtao Wang, Guoliang Zhang, Wenliang Chen. A Prior Information Enhanced Extraction Framework for Document-level Financial Event Extraction. Data Intelligence, 2021: 1-12. [[PDF]](https://direct.mit.edu/dint/article-pdf/doi/10.1162/dint_a_00103/1922608/dint_a_00103.pdf)
 - **Tong Zhu**, Haitao Wang, Junjie Yu, Xiabing Zhou, Wenliang Chen, Wei Zhang and Min Zhang. Towards Accurate and Consistent Evaluation: A Dataset for Distantly-Supervised Relation Extraction. In Proceedings of the 28th International Conference on Computational Linguistics (COLING 2020). pp. 6436-6447. [[PDF]](https://arxiv.org/pdf/2010.16275.pdf) [[Data & Codes]](https://github.com/Spico197/NYT-H)
 - Junjie Yu, **Tong Zhu**, Wenliang Chen, Wei Zhang and Min Zhang. Improving Relation Extraction with Relational Paraphrase Sentences. In Proceedings of the 28th International Conference on Computational Linguistics (COLING 2020). pp. 1687-1698. [[PDF]](https://www.aclweb.org/anthology/2020.coling-main.148.pdf)
