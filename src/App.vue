@@ -1,20 +1,33 @@
 <script setup>
-  import {json as content} from './content/content.json'
-
-
+import Bio from './components/Bio.vue'
+import NewsList from './components/NewsList.vue'
+import EducationList from './components/EducationList.vue'
+import AwardList from './components/AwardList.vue'
+import SoftwareList from './components/SoftwareList.vue'
 </script>
 
 <template>
   <header>
-    {{ content }}
+    <Bio />
   </header>
 
+  <hr>
+
   <main>
+    <NewsList />
+    <hr>
+    <EducationList />
+    <AwardList />
+    <SoftwareList />
   </main>
 
+  <hr>
+
   <footer>
+    Made by Tong Zhu w/ ❤️
   </footer>
 </template>
 
 <style>
+
 </style>

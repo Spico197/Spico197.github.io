@@ -1,0 +1,11 @@
+{
+    "name": "Tong Zhu (朱桐)",
+    "description": "I'm a Ph.D. student at Soochow University, advised by [Wenliang Chen](https://chen-wenliang.github.io/). I received my B.S. degree from Guizhou University.<br>My current research interests include Information Extraction and Knowledge Acquisition.",
+    "contact": {
+        "Github": {"icon": "fa fa-github", "url": "https://github.com/Spico197"},
+        "Google Scholar": {"icon": "ai ai-google-scholar", "url": "https://scholar.google.com/citations?user=V1gIjasAAAAJ&hl=en"},
+        "Semantic Scholar": {"icon": "ai ai-semantic-scholar", "url": "https://www.semanticscholar.org/author/Tong-Zhu/1914586128"},
+        "Website": {"icon": "fa fa-link", "url": "https://spico197.github.io/"},
+        "Email": {"icon": "fa fa-envelope", "url": "mailto:tzhu1997@outlook.com"}
+    }
+}

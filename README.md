@@ -32,4 +32,4 @@ npm run build
 
 1. Favicon is generated via [favicon.io](https://favicon.io/favicon-generator/), you should put the generated one into `/public` folder
 2. Change `<title>` content in `index.html`
-3. 
+3. Search icons from [font-awesome](https://fontawesome.com/v4/icons/) and [academicons]("https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css")
