@@ -9,6 +9,7 @@ import softwareJson from '../content/softwares.json'
 const softwareArr = computed(() => {
   return convertNestedMarkdownContentToHtml(softwareJson)
 })
+const idPrefix = "software"
 
 </script>
 
@@ -17,9 +18,11 @@ const softwareArr = computed(() => {
   <p>Know me through my code 👀.</p>
   <div v-for="(softwareList, listIdx) in softwareArr" :key="listIdx">
     <h3>{{ softwareList.category }}</h3>
-    <div v-for="(software, index) in softwareList.list" :key="index">
-      <a :href="software.url">{{ software.name }}</a>
-      <p v-html="software.content"></p>
+    <div class="row items-align-top" v-for="(software, index) in softwareList.list" :key="index">
+      <label class="col" :for="`${idPrefix}-${listIdx}-${index}`">
+        <a :href="software.url">{{ software.name }}</a>
+      </label>
+      <div class="col flex-start tight-list" :id="`${idPrefix}-${listIdx}-${index}`" v-html="software.content"></div>
     </div>
   </div>
 </template>

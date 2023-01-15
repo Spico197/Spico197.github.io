@@ -1,0 +1,77 @@
+[
+    {
+        "bibtex": "@inproceedings{ijcai2022p632,\n  title     = {Efficient Document-level Event Extraction via Pseudo-Trigger-aware Pruned Complete Graph},\n  author    = {Zhu, Tong and Qu, Xiaoye and Chen, Wenliang and Wang, Zhefeng and Huai, Baoxing and Yuan, Nicholas and Zhang, Min},\n  booktitle = {Proceedings of the Thirty-First International Joint Conference on\n               Artificial Intelligence, {IJCAI-22}},\n  publisher = {International Joint Conferences on Artificial Intelligence Organization},\n  editor    = {Lud De Raedt},\n  pages     = {4552--4558},\n  year      = {2022},\n  month     = {7},\n  note      = {Main Track},\n  doi       = {10.24963/ijcai.2022/632},\n  url       = {https://doi.org/10.24963/ijcai.2022/632},\n  abstract  = {Most previous studies of document-level event extraction mainly focus on building argument chains in an autoregressive way, which achieves a certain success but is inefficient in both training and inference. In contrast to the previous studies, we propose a fast and lightweight model named as PTPCG. In our model, we design a novel strategy for event argument combination together with a non-autoregressive decoding algorithm via pruned complete graphs, which are constructed under the guidance of the automatically selected pseudo triggers. Compared to the previous systems, our system achieves competitive results with 19.8% of parameters and much lower resource consumption, taking only 3.8% GPU hours for training and up to 8.5 times faster for inference. Besides, our model shows superior compatibility for the datasets with (or without) triggers and the pseudo triggers can be the supplements for annotated triggers to make further improvements. Codes are available at https://github.com/Spico197/DocEE .},\n}\n",
+        "authors": {
+            "boldAuthors": ["Tong Zhu"],
+            "correspondingAuthors": ["Wenliang Chen"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "slides": "./files/84-Tong-AIS2022-PTPCG.pdf",
+            "video": "https://slideslive.com/embed/presentation/38984846",
+            "code": "https://github.com/Spico197/DocEE",
+            "demo": "http://hlt.suda.edu.cn/docee"
+        }
+    },
+    {
+        "bibtex": "@article{wang-etal-2021-piee,\n    author = {Wang, Haitao and Zhu, Tong and Wang, Mingtao and Zhang, Guoliang and Chen, Wenliang},\n    title = {A Prior Information Enhanced Extraction Framework for Document-level Financial Event Extraction},\n    journal = {Data Intelligence},\n    volume = {3},\n    number = {3},\n    pages = {460-476},\n    year = {2021},\n    month = {09},\n    issn = {2641-435X},\n    doi = {10.1162/dint_a_00103},\n    url = {https://doi.org/10.1162/dint\\_a\\_00103},\n    eprint = {https://direct.mit.edu/dint/article-pdf/3/3/460/1969115/dint\\_a\\_00103.pdf},\n    abstract = {Document-level financial event extraction (DFEE) is the task of detecting events and extracting the corresponding event arguments in financial documents, which plays an important role in information extraction in the financial domain. This task is challenging as the financial documents are generally long text and event arguments of one event may be scattered in different sentences. To address this issue, we proposed a novel Prior Information Enhanced Extraction framework (PIEE) for DFEE, leveraging prior information from both event types and pre-trained language models. Specifically, PIEE consists of three components: event detection, event argument extraction, and event table filling. In event detection, we identify the event type. Then, the event type is explicitly used for event argument extraction. Meanwhile, the implicit information within language models also provides considerable cues for event arguments localization. Finally, all the event arguments are filled in an event table by a set of predefined heuristic rules. To demonstrate the effectiveness of our proposed framework, we participated in the share task of CCKS2020 Task 4-2: Document-level Event Arguments Extraction. On both Leaderboard A and Leaderboard B, PIEE took the first place and significantly outperformed the other systems.},\n}",
+        "authors": {
+            "boldAuthors": ["Tong Zhu"],
+            "correspondingAuthors": ["Wenliang Chen"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": "http://hlt.suda.edu.cn/docee"
+        }
+    },
+    {
+        "bibtex": "@inproceedings{zhu-etal-2020-nyth, \n    title =  \"Towards Accurate and Consistent Evaluation: A Dataset for Distantly-Supervised Relation Extraction \", \n    author =  \"Zhu, Tong  and \n        Wang, Haitao  and \n        Yu, Junjie  and \n        Zhou, Xiabing  and \n        Chen, Wenliang  and \n        Zhang, Wei  and \n        Zhang, Min \", \n    booktitle =  \"Proceedings of the 28th International Conference on Computational Linguistics \", \n    month = dec, \n    year =  \"2020 \", \n    address =  \"Barcelona, Spain (Online) \", \n    publisher =  \"International Committee on Computational Linguistics \", \n    url =  \"https://aclanthology.org/2020.coling-main.566\", \n    doi =  \"10.18653/v1/2020.coling-main.566 \", \n    pages =  \"6436--6447 \", \n    abstract =  \"In recent years, distantly-supervised relation extraction has achieved a certain success by using deep neural networks. Distant Supervision (DS) can automatically generate large-scale annotated data by aligning entity pairs from Knowledge Bases (KB) to sentences. However, these DS-generated datasets inevitably have wrong labels that result in incorrect evaluation scores during testing, which may mislead the researchers. To solve this problem, we build a new dataset NYTH, where we use the DS-generated data as training data and hire annotators to label test data. Compared with the previous datasets, NYT-H has a much larger test set and then we can perform more accurate and consistent evaluation. Finally, we present the experimental results of several widely used systems on NYT-H. The experimental results show that the ranking lists of the comparison systems on the DS-labelled test data and human-annotated test data are different. This indicates that our human-annotated data is necessary for evaluation of distantly-supervised relation extraction. \", \n}",
+        "authors": {
+            "boldAuthors": ["Tong Zhu"],
+            "correspondingAuthors": ["Xiabing Zhou"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "slides": "./files/Tong-COLING2020-NYT-H.pdf",
+            "video": "https://www.bilibili.com/video/BV1AG4y1C7Je/",
+            "code": "https://github.com/Spico197/NYT-H",
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@inproceedings{yu-etal-2020-rep, title = \"Improving Relation Extraction with Relational Paraphrase Sentences\", author = \"Yu, Junjie  and Zhu, Tong  and Chen, Wenliang  and Zhang, Wei  and Zhang, Min\", booktitle = \"Proceedings of the 28th International Conference on Computational Linguistics\", month = dec, year = \"2020\", address = \"Barcelona, Spain (Online)\", publisher = \"International Committee on Computational Linguistics\", url = \"https://aclanthology.org/2020.coling-main.148\", doi = \"10.18653/v1/2020.coling-main.148\", pages = \"1687--1698\", abstract = \"Supervised models for Relation Extraction (RE) typically require human-annotated training data. Due to the limited size, the human-annotated data is usually incapable of covering diverse relation expressions, which could limit the performance of RE. To increase the coverage of relation expressions, we may enlarge the labeled data by hiring annotators or applying Distant Supervision (DS). However, the human-annotated data is costly and non-scalable while the distantly supervised data contains many noises. In this paper, we propose an alternative approach to improve RE systems via enriching diverse expressions by relational paraphrase sentences. Based on an existing labeled data, we first automatically build a task-specific paraphrase data. Then, we propose a novel model to learn the information of diverse relation expressions. In our model, we try to capture this information on the paraphrases via a joint learning framework. Finally, we conduct experiments on a widely used dataset and the experimental results show that our approach is effective to improve the performance on relation extraction, even compared with a strong baseline.\",}",
+        "authors": {
+            "boldAuthors": ["Tong Zhu"],
+            "correspondingAuthors": ["Wenliang Chen"],
+            "equalContributionAuthors": []
+        },
+        "note": "",
+        "resources": {
+            "slides": null,
+            "video": null,
+            "code": "https://github.com/jjyunlp/ReP-RE",
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@misc{wang-etal-2019-ccks, doi = {10.48550/ARXIV.1908.11337}, url = {https://arxiv.org/abs/1908.11337}, author = {Wang, Haitao and He, Zhengqiu and Zhu, Tong and Shao, Hao and Chen, Wenliang and Zhang, Min}, keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences}, title = {CCKS 2019 Shared Task on Inter-Personal Relationship Extraction}, publisher = {arXiv}, year = {2019}, copyright = {arXiv.org perpetual, non-exclusive license}, journal = {arXiv preprint}, }",
+        "authors": {
+            "boldAuthors": ["Tong Zhu"],
+            "correspondingAuthors": ["Wenliang Chen"],
+            "equalContributionAuthors": []
+        },
+        "note": "",
+        "resources": {
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    }
+]

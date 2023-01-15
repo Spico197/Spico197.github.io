@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "citation-js": "^0.6.5",
     "marked": "^4.2.12",
     "vue": "^3.2.45"
   },
