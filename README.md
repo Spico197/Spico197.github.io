@@ -12,13 +12,14 @@ To use this as a template, you may want to:
 3. Remove analytics in `src/index.html`
 4. Remove files in `public/files/`
 5. Change favicon in `public/favicon-32x32.png`
-6. Change footer in `src/App.vue`
-7. Change all the contents in `src/content/`
-8. Setup [node.js](https://nodejs.org/en/) for development ([nvm](https://github.com/nvm-sh/nvm) is recommended to manage different versions of node.js)
-9. Clone your repo to your computer
-10. Change directory to the cloned repo, type `npm install` in the terminal to install all necessary dependencies
-11. Type `npm run dev` to test in your localhost
-12. You may want to change branches in `.github/workflows/deploy.yml`, and change repo `settings/Code and automation/Pages/Build and deployment/Source` to `Github Actions`
+6. Change settings in `src/settings.json` (for getting latest update datetime)
+7. Change footer in `src/components/Footer.vue`
+8. Change all the contents in `src/content/`
+9. Setup [node.js](https://nodejs.org/en/) for development ([nvm](https://github.com/nvm-sh/nvm) is recommended to manage different versions of node.js)
+10. Clone your repo to your computer
+11. Change directory to the cloned repo, type `npm install` in the terminal to install all necessary dependencies
+12. Type `npm run dev` to test in your localhost
+13. You may want to change branches in `.github/workflows/deploy.yml`, and change repo `settings/Code and automation/Pages/Build and deployment/Source` to `Github Actions`
 
 ## 🚀 Quick Start
 
