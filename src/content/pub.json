@@ -1,5 +1,50 @@
 [
     {
+        "bibtex": "@inproceedings{ccks2023,\n    title={面向含表格文档的中文篇章级事件抽取模型},\n    author={吴孟松 and 朱桐 and 张国梁 and 任俊飞 and 余子健 and 陈文亮},\n    booktitle={China Conference on Knowledge Graph and Semantic Computing (CCKS)},\n    year={2023},\n    abstract={篇章级事件抽取任务，即从长文档中提取结构化的事件信息。现有的篇章级事件抽取模型往往关注纯文本文档，无法有效利用表格文本的位置信息辅助抽取文档表格中包含的事件要素。因此，该文构建了新的含表格文档事件抽取数据集TableEE，用于检测不同模型在此情景下的表现。为提升模型对于表格文本的抽取能力，该文提出了一种绝对位置编码UPEST 来统一表示表格和段落文本的位置信息，增强模型针对含表格文档的语义理解。实验结果表明，该文模型在新构造数据集上事件抽取平均F1 值达到76.91\\%，事件要素抽取平均F1 值在使用UPEST 后提升1.83\\%。},\n}",
+        "authors": {
+            "boldAuthors": ["朱桐"],
+            "correspondingAuthors": ["陈文亮"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "slides": null,
+            "video": null,
+            "code": "https://github.com/fairyshine/TableEE",
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@inproceedings{yu-et-al-event-arg,\n    title={基于句法特征的事件要素抽取方法},\n    author={余子健 and 朱桐 and 陈文亮},\n    booktitle={Chinese National Conference on Computational Linguistics (CCL)},\n    year={2023},\n    abstract={事件要素抽取(Event Argument Extraction, EAE) 旨在从非结构化文本中提取事件参与要素。编码器-解码器 (Encoder-Decoder) 架构是处理该任务的一种常见策略。此前的研究大多只向编码器端输入文本的字词信息，模型泛化和远程依赖处理能力较弱。为此，本文提出一种融入句法信息的事件要素抽取模型。该模型首先对文本分析得到成分句法解析树，将词性标签和各节点的句法成分标签编码，增强模型的文本表征能力。然后，本文提出了一种基于树结构的注意力机制 (Tree-Attention) 辅助模型更好地感知结构化语义信息，提高模型处理远距离依赖的能力。实验结果表明，本文所提方法相较于基线系统F1值提升2.02\\%，证明该方法的有效性。},\n}",
+        "authors": {
+            "boldAuthors": ["朱桐"],
+            "correspondingAuthors": ["陈文亮"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@inproceedings{ren-et-al-mcml,\n    title={基于不完全标注的自监督多标签文本分类},\n    author={任俊飞 and 朱桐 and 陈文亮},\n    booktitle={Chinese National Conference on Computational Linguistics (CCL)},\n    year={2023},\n    abstract={多标签文本分类(Multi-Label Text Classification, MLTC)旨在从预定义的候选标签集合中选择一个或多个文本对应的类别，是自然语言处理的一项基本任务。前人工作大多基于规范且全面的标注数据集，而这些规范数据集需要严格的质量控制，一般很难获取。在真实的标注过程中，难免会丢失掉一些相关标签，进而导致不完全标注问题。为此本文提出了一种基于局部标注的自监督框架(Partial Self-Training，PST)，该框架利用教师模型自动地给大规模无标注数据打伪标签，同时给不完全标注数据补充缺失标签，最后再利用这些数据反向更新教师模型。在合成数据集和真实数据集上的实验表明，本文提出的PST框架兼容现有的各类多标签文本分类模型，并且可以缓解不完全标注数据对模型的影响。},\n}",
+        "authors": {
+            "boldAuthors": ["朱桐"],
+            "correspondingAuthors": ["陈文亮"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
         "bibtex": "@article{zhu-et-al-2023-catalog,\n        title={CED: Catalog Extraction from Documents},\n        author={Zhu, Tong and Zhang, Guoliang and Li, Zechang and Yu, Zijian and Ren, Junfei and Wu, Mengsong and Wang, Zhefeng and Huai, Baoxing and Chao, Pingfu and Chen, Wenliang},\n        journal={ICDAR'23 preprint arXiv:2304.14662},\n        year={2023},\n      url = {https://arxiv.org/abs/2304.14662},\n      abstract={Sentence-by-sentence information extraction from long documents is an exhausting and error-prone task. As the indicator of document skeleton, catalogs naturally chunk documents into segments and provide informative cascade semantics, which can help to reduce the search space. Despite their usefulness, catalogs are hard to be extracted without the assist from external knowledge. For documents that adhere to a specific template, regular expressions are practical to extract catalogs. However, handcrafted heuristics are not applicable when processing documents from different sources with diverse formats. To address this problem, we build a large manually annotated corpus, which is the first dataset for the Catalog Extraction from Documents (CED) task. Based on this corpus, we propose a transition-based framework for parsing documents into catalog trees. The experimental results demonstrate that our proposed method outperforms baseline systems and shows a good ability to transfer. We believe the CED task could fill the gap between raw text segments and information extraction tasks on extremely long documents.},\n}",
         "authors": {
             "boldAuthors": ["Tong Zhu"],
@@ -11,6 +56,21 @@
             "slides": null,
             "video": null,
             "code": "https://github.com/Spico197/CatalogExtraction",
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@article{zhang-et-al-jcip,\n    title={面向无触发词文本的因果关系事件对联合抽取模型},\n    author={张国梁 and 朱桐 and 陈文亮},\n    journal={中文信息学报（暂未见刊）},\n    year={2022},\n    abstract={N/A}\n}",
+        "authors": {
+            "boldAuthors": ["朱桐"],
+            "correspondingAuthors": ["陈文亮"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "slides": null,
+            "video": null,
+            "code": null,
             "demo": null
         }
     },

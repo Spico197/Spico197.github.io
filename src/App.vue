@@ -2,6 +2,7 @@
 import Bio from './components/Bio.vue'
 import NewsList from './components/NewsList.vue'
 import EducationList from './components/EducationList.vue'
+import ExperienceList from './components/ExperienceList.vue'
 import PublicationList from './components/PublicationList.vue'
 import AwardList from './components/AwardList.vue'
 import SoftwareList from './components/SoftwareList.vue'
@@ -20,6 +21,7 @@ import Footer from './components/Footer.vue'
     <NewsList />
     <hr>
     <EducationList />
+    <ExperienceList />
     <PublicationList />
     <AwardList />
     <TalkList />

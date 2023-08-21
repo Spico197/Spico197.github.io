@@ -19,6 +19,10 @@ const pubArr = computed(() => {
   for (let i = 0; i < pubJson.length; i++) {
     let cite = Cite(pubJson[i]["bibtex"])
     pubJson[i]["entry"] = cite.get({ format: "real", type: "json", style: "csl" })[0]
+    console.log(pubJson[i]["entry"])
+    if ("URL" in pubJson[i]["entry"]) {
+      pubJson[i]["entry"]["url"] = pubJson[i]["entry"]["URL"].replace(/\\/g, "")
+    }
     pubJson[i]["bibString"] = cite.get({ format: "string", type: "string", style: "bibtex" })
     pubJson[i]["acl"] = cite.format(
       "bibliography",
@@ -39,7 +43,14 @@ const pubArr = computed(() => {
 
     let authors = []
     for (let author of pubJson[i]["entry"]["author"]) {
-      let authorString = `${author.given} ${author.family}`.trim()
+      let authorString = ""
+      if (author.given) {
+        authorString += author.given
+      }
+      if (author.family) {
+        authorString += " " + author.family
+      }
+      authorString = authorString.trim()
       let finalAuthorString = authorString
       if (
         pubJson[i].authors.boldAuthors
@@ -112,7 +123,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
   </p>
   <ul class="pub-list" reversed>
     <li v-for="pub in pubArr" :key="pub.entry.id">
-      <a :href="pub.entry.URL" target="_blank">{{ pub.entry.title }}</a><br>
+      <a :href="pub.entry.url" target="_blank">{{ pub.entry.title }}</a><br>
       <p class="pub" v-html="pub.entry.authors"></p>
       <p class="pub"><em>{{ pub.entry["container-title"] }}</em>. {{ pub.entry.issued["date-parts"][0][0] }}.</p>
       <p class="pub note" v-if="pub.note">{{ pub.note }}</p>
