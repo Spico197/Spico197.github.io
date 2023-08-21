@@ -3,9 +3,10 @@ import { computed } from 'vue'
 import { convertMarkdownContentToHtml } from '../utils';
 
 import newsJson from '../content/news.json'
+import settings from '../settings.json'
 
 const newsArr = computed(() => {
-  return convertMarkdownContentToHtml(newsJson)
+  return convertMarkdownContentToHtml(newsJson).slice(0, settings.maxNewsNum)
 })
 const idPrefix = "news"
 

@@ -1,5 +1,6 @@
 {
     "owner": "Spico197",
     "repo": "Spico197.github.io",
-    "branch": "vue-dev"
+    "branch": "vue-dev",
+    "maxNewsNum": 5
 }
