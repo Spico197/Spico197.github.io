@@ -15,10 +15,10 @@
         }
     },
     {
-        "bibtex": "@inproceedings{yu-et-al-event-arg,\n    title={基于句法特征的事件要素抽取方法},\n    author={余子健 and 朱桐 and 陈文亮},\n    booktitle={Chinese National Conference on Computational Linguistics (CCL)},\n    year={2023},\n    abstract={事件要素抽取(Event Argument Extraction, EAE) 旨在从非结构化文本中提取事件参与要素。编码器-解码器 (Encoder-Decoder) 架构是处理该任务的一种常见策略。此前的研究大多只向编码器端输入文本的字词信息，模型泛化和远程依赖处理能力较弱。为此，本文提出一种融入句法信息的事件要素抽取模型。该模型首先对文本分析得到成分句法解析树，将词性标签和各节点的句法成分标签编码，增强模型的文本表征能力。然后，本文提出了一种基于树结构的注意力机制 (Tree-Attention) 辅助模型更好地感知结构化语义信息，提高模型处理远距离依赖的能力。实验结果表明，本文所提方法相较于基线系统F1值提升2.02\\%，证明该方法的有效性。},\n}",
+        "bibtex": "@inproceedings{yu-etal-2023-ji,    title = \"基于句法特征的事件要素抽取方法(Syntax-aware Event Argument Extraction )\",    author = \"Yu, Zijian  and      Zhu, Tong  and      Chen, Wenliang\",    booktitle = \"Proceedings of the 22nd Chinese National Conference on Computational Linguistics\",    month = aug,    year = \"2023\",    address = \"Harbin, China\",    publisher = \"Chinese Information Processing Society of China\",    url = \"https://aclanthology.org/2023.ccl-1.18\",    pages = \"196--207\",    abstract = \"{``}事件要素抽取(Event Argument Extraction, EAE)旨在从非结构化文本中提取事件参与要素。编码器{---}解码器(Encoder-Decoder)框架是处理该任务的一种常见策略,此前的研究大多只向编码器端输入文本的字词信息,导致模型泛化和远程依赖处理能力较弱。为此,本文提出一种融入句法信息的事件要素抽取模型。首先对文本分析得到成分句法解析树,将词性标签和各节点的句法成分标签编码,增强模型的文本表征能力。然后,本文提出了一种基于树结构的注意力机制(Tree-Attention)辅助模型更好地感知结构化语义信息,提高模型处理远距离依赖的能力。实验结果表明,本文所提方法相较于基线系统F1值提升2.02{\\%},证明该方法的有效性。{''}\",    language = \"Chinese\",}",
         "authors": {
-            "boldAuthors": ["朱桐"],
-            "correspondingAuthors": ["陈文亮"],
+            "boldAuthors": ["Tong Zhu"],
+            "correspondingAuthors": ["Wenliang Chen"],
             "equalContributionAuthors": null
         },
         "note": "",
@@ -30,17 +30,17 @@
         }
     },
     {
-        "bibtex": "@inproceedings{ren-et-al-mcml,\n    title={基于不完全标注的自监督多标签文本分类},\n    author={任俊飞 and 朱桐 and 陈文亮},\n    booktitle={Chinese National Conference on Computational Linguistics (CCL)},\n    year={2023},\n    abstract={多标签文本分类(Multi-Label Text Classification, MLTC)旨在从预定义的候选标签集合中选择一个或多个文本对应的类别，是自然语言处理的一项基本任务。前人工作大多基于规范且全面的标注数据集，而这些规范数据集需要严格的质量控制，一般很难获取。在真实的标注过程中，难免会丢失掉一些相关标签，进而导致不完全标注问题。为此本文提出了一种基于局部标注的自监督框架(Partial Self-Training，PST)，该框架利用教师模型自动地给大规模无标注数据打伪标签，同时给不完全标注数据补充缺失标签，最后再利用这些数据反向更新教师模型。在合成数据集和真实数据集上的实验表明，本文提出的PST框架兼容现有的各类多标签文本分类模型，并且可以缓解不完全标注数据对模型的影响。},\n}",
+        "bibtex": "@inproceedings{ren-etal-2023-ji,    title = \"基于不完全标注的自监督多标签文本分类(Self-Training With Incomplete Labeling For Multi-Label Text Classification)\",    author = \"Ren, Junfei  and      Zhu, Tong  and      Chen, Wenliang\",    booktitle = \"Proceedings of the 22nd Chinese National Conference on Computational Linguistics\",    month = aug,    year = \"2023\",    address = \"Harbin, China\",    publisher = \"Chinese Information Processing Society of China\",    url = \"https://aclanthology.org/2023.ccl-1.2\",    pages = \"17--30\",    abstract = \"{``}多标签文本分类((Multi-Label Text Classification, MLTC)旨在从预定义的候选标签集合中选择一个或多个文本对应的类别,是自然语言处理C)旨在从预定义的候选标签集合中选择一个或多个文本对应的类别,是自然语言处理(Natural Language Processing,NLP)的一项基本任务。前人工作大多基于规范且全面的标注数据集,而这些规范数据集需要严格的质量控制,一般很难获取。在真实的标注过程中,难免会丢失掉一些相关标签,进而导致不完全标注问题。为此本文提出了一种基于局部标注的自监督框架(Partial Self-Training,PST),该框架利用教师模型自动地给大规模无标注数据打伪标签,同时给不完全标注数据补充缺失标签,最后再利用这些数据反向更新教师模型。在合成数据集和真实数据集上的实验表明,本文提出的PST框架兼容现有的各类多标签文本分类模型,并且可以缓解不完全标注数据对模型的影响。{''}\",    language = \"Chinese\",}",
         "authors": {
-            "boldAuthors": ["朱桐"],
-            "correspondingAuthors": ["陈文亮"],
+            "boldAuthors": ["Tong Zhu"],
+            "correspondingAuthors": ["Wenliang Chen"],
             "equalContributionAuthors": null
         },
         "note": "",
         "resources": {
-            "slides": null,
+            "slides": "./files/任俊飞-基于不完全标注的自监督多标签文本分类.pdf",
             "video": null,
-            "code": null,
+            "code": "https://github.com/15962171082/Incomplete_MLTC",
             "demo": null
         }
     },
@@ -53,7 +53,7 @@
         },
         "note": "",
         "resources": {
-            "slides": null,
+            "slides": "./files/ICDAR23-Poster-6780-CatalogExtraction.pdf",
             "video": null,
             "code": "https://github.com/Spico197/CatalogExtraction",
             "demo": null

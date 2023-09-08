@@ -127,6 +127,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
       <p class="pub" v-html="pub.entry.authors"></p>
       <p class="pub"><em>{{ pub.entry["container-title"] }}</em>. {{ pub.entry.issued["date-parts"][0][0] }}.</p>
       <p class="pub note" v-if="pub.note">{{ pub.note }}</p>
+      <!-- <p class="pub" v-if="pub.note" v-html="pub.note"></p> -->
       <div>
         <div>
           <a class="badge badge-abs" @click="showFlag[pub.entry.id].abs = !showFlag[pub.entry.id].abs">abs</a>
