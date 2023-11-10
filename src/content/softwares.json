@@ -1,6 +1,7 @@
 [
     {
         "category": "Research", "list": [
+            {"name": "Mirror", "url": "https://github.com/Spico197/Mirror", "content": "🪞Mirror Mirror on the wall, please help me deal with all the IE tasks."},
             {"name": "DocEE", "url": "https://github.com/Spico197/DocEE", "content": "A toolkit for document-level event extraction, containing some SOTA model implementations."},
             {"name": "REx", "url": "https://github.com/Spico197/REx", "content": "A PyTorch-based scaffold toolkit for Relation Extraction and more."}
         ]
