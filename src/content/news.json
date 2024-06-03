@@ -1,4 +1,6 @@
 [
+    {"date": "2024.5.16", "content": "Two papers accepted to ACL'24, including pre-training data detection, and temporal reasoning."},
+    {"date": "2024.2.20", "content": "One paper on Dialogue State Tracking accepted to COLING'24."},
     {"date": "2023.11.10", "content": "One paper on universal IE accepted to EMNLP'23. Check it out: [🪞Mirror](https://arxiv.org/abs/2311.05419)"},
     {"date": "2022.8.26", "content": "Our team won two 2nd prizes in [CCKS2022](http://sigkg.cn/ccks2022/?page_id=22) shared tasks (Task 8: Few-shot Event Subject Extraction, Task 10: Causal Event Argument Extraction)"},
     {"date": "2022.4.21", "content": "Our [PTPCG](https://github.com/Spico197/DocEE) has been accepted to appear in IJCAI’22"},

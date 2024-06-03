@@ -1,6 +1,51 @@
 [
     {
-        "bibtex": "@misc{zhu2023mirror,\n    title={Mirror: A Universal Framework for Various Information Extraction Tasks}, \n    author={Tong Zhu and Junfei Ren and Zijian Yu and Mengsong Wu and Guoliang Zhang and Xiaoye Qu and Wenliang Chen and Zhefeng Wang and Baoxing Huai and Min Zhang},\n    year={2023},\n    eprint={2311.05419},\n    booktitle={arXiv},\n    url={https://arxiv.org/abs/2311.05419},\n    primaryClass={cs.CL}\n}",
+        "bibtex": "@article{Wu2024SealToolsST,\n  title={Seal-Tools: Self-Instruct Tool Learning Dataset for Agent Tuning and Detailed Benchmark},\n  author={Mengsong Wu and Tong Zhu and Han Han and Chuanyuan Tan and Xiang Zhang and Wenliang Chen},\n  year={2024},\n  journal={arXiv preprint},\n  url={https://api.semanticscholar.org/CorpusID:269761434}, abstract={This paper presents a new tool learning dataset Seal-Tools, which contains self-instruct API-like tools. Seal-Tools not only offers a large number of tools, but also includes instances which demonstrate the practical application of tools. Seeking to generate data on a large scale while ensuring reliability, we propose a self-instruct method to generate tools and instances, allowing precise control over the process. Moreover, our Seal-Tools contains hard instances that call multiple tools to complete the job, among which some are nested tool callings. For precise and comprehensive evaluation, we use strict format control and design three metrics from different dimensions. Therefore, Seal-Tools can serve as a new benchmark to evaluate the tool-calling ability of LLMs. Finally, we evaluate several prevalent LLMs and our finetuned model on Seal-Tools. The results show that current systems are far from perfect.}\n}",
+        "authors": {
+            "boldAuthors": ["Tong Zhu"],
+            "correspondingAuthors": ["Wenliang Chen"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "slides": null,
+            "video": null,
+            "code": "https://github.com/fairyshine/Seal-Tools",
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@inproceedings{Tang2024MoPEMO,\n  title={MoPE: Mixture of Prefix Experts for Zero-Shot Dialogue State Tracking},\n  author={Tianwen Tang and Tong Zhu and Haodong Liu and Yin Bai and Jia Cheng and Wenliang Chen},\n  booktitle={Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (COLING-LREC)},\n  year={2024},\n  url={https://api.semanticscholar.org/CorpusID:269137296}, abstract={Zero-shot dialogue state tracking (DST) transfers knowledge to unseen domains, reducing the cost of annotating new datasets. Previous zero-shot DST models mainly suffer from domain transferring and partial prediction problems. To address these challenges, we propose Mixture of Prefix Experts (MoPE) to establish connections between similar slots in different domains, which strengthens the model transfer performance in unseen domains. Empirical results demonstrate that MoPE-DST achieves the joint goal accuracy of 57.13% on MultiWOZ2.1 and 55.40% on SGD.}\n}",
+        "authors": {
+            "boldAuthors": ["Tong Zhu"],
+            "correspondingAuthors": ["Wenliang Chen"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "slides": null,
+            "video": null,
+            "code": "https://github.com/ttw1018/MoPE-DST",
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@article{Liu2024ControllableAD,\n  title={Controllable and Diverse Data Augmentation with Large Language Model for Low-Resource Open-Domain Dialogue Generation},\n  author={Zhenhua Liu and Tong Zhu and Jianxiang Xiang and Wenliang Chen},\n  journal={arXiv preprint},\n  year={2024},\n  volume={abs/2404.00361},\n  url={https://api.semanticscholar.org/CorpusID:268819522}, abstract={Data augmentation (DA) is crucial to mitigate model training instability and over-fitting problems in low-resource open-domain dialogue generation. However, traditional DA methods often neglect semantic data diversity, restricting the overall quality. Recently, large language models (LLM) have been used for DA to generate diversified dialogues. However, they have limited controllability and tend to generate dialogues with a distribution shift compared to the seed dialogues. To maximize the augmentation diversity and address the controllability problem, we propose \textbf{S}ummary-based \textbf{D}ialogue \textbf{A}ugmentation with LLM (SDA). Our approach enhances the controllability of LLM by using dialogue summaries as a planning tool. Based on summaries, SDA can generate high-quality and diverse dialogue data even with a small seed dataset. To evaluate the efficacy of data augmentation methods for open-domain dialogue, we designed a clustering-based metric to characterize the semantic diversity of the augmented dialogue data. The experimental results show that SDA can augment high-quality and semantically diverse dialogues given a small seed dataset and an LLM, and the augmented data can boost the performance of open-domain dialogue models.}\n}",
+        "authors": {
+            "boldAuthors": ["Tong Zhu"],
+            "correspondingAuthors": ["Wenliang Chen"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "slides": null,
+            "video": null,
+            "code": null,
+            "demo": null
+        }
+    },
+    {
+        "bibtex": "@inproceedings{zhu-etal-2023-mirror,\n    title = \"Mirror: A Universal Framework for Various Information Extraction Tasks\",\n    author = \"Zhu, Tong  and\n      Ren, Junfei  and\n      Yu, Zijian  and\n      Wu, Mengsong  and\n      Zhang, Guoliang  and\n      Qu, Xiaoye  and\n      Chen, Wenliang  and\n      Wang, Zhefeng  and\n      Huai, Baoxing  and\n      Zhang, Min\",\n    editor = \"Bouamor, Houda  and\n      Pino, Juan  and\n      Bali, Kalika\",\n    booktitle = \"Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.emnlp-main.548\",\n    doi = \"10.18653/v1/2023.emnlp-main.548\",\n    pages = \"8861--8876\",\n    abstract = \"Sharing knowledge between information extraction tasks has always been a challenge due to the diverse data formats and task variations. Meanwhile, this divergence leads to information waste and increases difficulties in building complex applications in real scenarios. Recent studies often formulate IE tasks as a triplet extraction problem. However, such a paradigm does not support multi-span and n-ary extraction, leading to weak versatility. To this end, we reorganize IE problems into unified multi-slot tuples and propose a universal framework for various IE tasks, namely Mirror. Specifically, we recast existing IE tasks as a multi-span cyclic graph extraction problem and devise a non-autoregressive graph decoding algorithm to extract all spans in a single step. It is worth noting that this graph structure is incredibly versatile, and it supports not only complex IE tasks, but also machine reading comprehension and classification tasks. We manually construct a corpus containing 57 datasets for model pretraining, and conduct experiments on 30 datasets across 8 downstream tasks. The experimental results demonstrate that our model has decent compatibility and outperforms or reaches competitive performance with SOTA systems under few-shot and zero-shot settings. The code, model weights, and pretraining corpus are available at https://github.com/Spico197/Mirror .\",\n}",
         "authors": {
             "boldAuthors": ["Tong Zhu"],
             "correspondingAuthors": ["Wenliang Chen"],
