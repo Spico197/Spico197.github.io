@@ -8,6 +8,7 @@
     },
     {
         "category": "Tools", "list": [
+            {"name": "KAL AI Layer", "url": "https://github.com/Feed-Scription/KAL", "content": "A flow engine for AI-native games and interactive applications."},
             {"name": "Watchmen", "url": "https://github.com/Spico197/watchmen", "content": "A GPU scheduling toolkit for queuing jobs"},
             {"name": "random-luck", "url": "https://github.com/Spico197/random-luck", "content": "Automatically select the best random seed based on ~~ancient Chinese I Ching~~ (random luck). Good luck and best wishes!"},
             {"name": "paper-hero", "url": "https://github.com/Spico197/paper-hero", "content": "A toolkit to help search for papers from aclanthology, arXiv and dblp."}

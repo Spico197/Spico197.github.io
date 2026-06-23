@@ -1,4 +1,5 @@
 [
+    {"date": "2025.12", "content": "We release [Tenure Track Simulator](https://tenure-plus.feedscription.com/), an AI-native demo that simulates the tenure track process for researchers."},
     {"date": "2024.5.16", "content": "Two papers accepted to ACL'24, including pre-training data detection, and temporal reasoning."},
     {"date": "2024.2.20", "content": "One paper on Dialogue State Tracking accepted to COLING'24."},
     {"date": "2023.11.10", "content": "One paper on universal IE accepted to EMNLP'23. Check it out: [🪞Mirror](https://arxiv.org/abs/2311.05419)"},
